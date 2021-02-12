@@ -35,7 +35,7 @@ public class SearchGooglePage extends BaseClass {
 	}
 
 	public void playtechSearchResults() {
-		
+
 		action.clickOnElement(PLAYTECHRESULT);
 		Assert.assertEquals("https://www.playtech.com/", driver.getCurrentUrl());
 	}
