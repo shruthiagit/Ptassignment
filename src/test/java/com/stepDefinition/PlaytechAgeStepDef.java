@@ -48,22 +48,22 @@ public class PlaytechAgeStepDef extends BaseClass {
 
 	@When("^I get the number of countries$")
 	public void i_get_the_number_of_countries() throws Throwable {
-
+		playtechAgePage.gotoCountriesSection();
 	}
 
 	@When("^I get the number of global licenses$")
 	public void i_get_the_number_of_global_licenses() throws Throwable {
-
+		playtechAgePage.gotoLicensesSection();
 	}
 
 	@When("^I get the Regulated Jurisdictions$")
 	public void i_get_the_Regulated_Jurisdictions() throws Throwable {
-
+		playtechAgePage.gotoJurisdictionsSection();
 	}
 
 	@Then("^I validate with the number of my choice$")
 	public void i_validate_with_the_number_of_my_choice() throws Throwable {
-
+		//playtechAgePage.invalidatecount(num, count);;
 	}
 
 }
